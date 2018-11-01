@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-10-28T18:07:40
+# Project created by QtCreator 2018-11-01T12:58:32
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Masternode
+TARGET = WalletClient
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -33,12 +33,6 @@ HEADERS += \
 FORMS += \
         mainwindow.ui
 
-RESOURCES += \
-    resources.qrc
-
 INCLUDEPATH += $$PWD/blockchain
 include(blockchain/blockchain.pri)
 
-
-INCLUDEPATH += $$PWD/wallet
-include(wallet/wallet.pri)

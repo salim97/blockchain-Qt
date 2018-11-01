@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/Delete-96.png</file>
+        <file>icons/Joyent Filled-100.png</file>
+    </qresource>
+</RCC>
